@@ -1,0 +1,130 @@
+/* Palitra */
+/* цвет осн текста #434455 */
+/* цвет заголовка #2E2F42  */
+/* белый цвет #fff */
+/* цвет фон #E7E9FC */
+/* цвет фона футер #2E2F42 */
+/* цвет фона вторичный #F4F4FD */
+/* цвет фона #FFFFFF */
+/* цвет ховер фокус #404BBF */
+/* цвет текста footer #F4F4FD*/
+/* цвет logo-one #4D5AE5 */
+/* цвет logo-two #2E2F42 */
+/* цвет logo-three #F4F4FD */
+
+
+
+:root {
+    --primary-text-color:#434455;
+    --title-color:#2E2F42;
+    --primary-bcg-color:#FFFFFF;
+    --footer-bcg-color:#2E2F42;
+}
+
+
+body {
+    background-color: #FFFFFF ;
+    color: var(--primary-text-color);
+
+}
+
+.link:{
+
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* title */
+
+.section-title {
+    color: var(--title-color);
+}
+
+
+/* logo */
+
+.logo-one{
+    color:#4D5AE5 ;
+}
+.logo-two {
+    color: #2E2F42;
+}
+.logo-three {
+    color: #F4F4FD;
+}
+
+/* Header */
+
+.site-nav .link {
+    color: #2E2F42 ;
+}
+.address .link {
+    color: #434455;
+}
+.link:hover,
+.link:focus {
+    color: #404BBF;
+}
+.nav.link:active{
+    color: #404BBF;
+}
+
+
+/* Hero */
+
+.hero-title{
+    color: #FFFFFF;
+}
+
+
+/* hero */
+.hero-button{
+    background-color:#4D5AE5 ;
+    color:#FFFFFF ;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+}
+
+/* advantages */
+
+
+.advantages-list-title{
+    color: var(--title-color);
+}
+
+
+/* work */
+
+
+
+/* team */
+
+.person{
+    background-color: #FFFFFF;
+}
+
+.team{
+    background-color:#F4F4FD;
+}
+.team-title{
+    
+}
+.name{
+    color:var(--title-color);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: var(--footer-bcg-color);
+}
+.footer-text{
+    color:#F4F4FD;
+}
+
