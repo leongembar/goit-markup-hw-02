@@ -26,10 +26,25 @@ body {
     background-color: #FFFFFF ;
     color: var(--primary-text-color);
 
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
 
-.link:{
+/* Button */
 
+.button{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .list {
@@ -41,10 +56,25 @@ body {
 
 .section-title {
     color: var(--title-color);
-}
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    }
+    
 
 
 /* logo */
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    
+}
 
 .logo-one{
     color:#4D5AE5 ;
@@ -60,9 +90,18 @@ body {
 
 .site-nav .link {
     color: #2E2F42 ;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+      
 }
 .address .link {
     color: #434455;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .link:hover,
 .link:focus {
@@ -73,20 +112,40 @@ body {
 }
 
 
+/* footer */
+
+.footer {
+    background-color: var(--footer-bcg-color);
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
+
+
+
+/* Studio */
+
 /* Hero */
 
 .hero-title{
     color: #FFFFFF;
-}
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    }
 
 
 /* hero */
-.hero-button{
+
+.hero.button{
     background-color:#4D5AE5 ;
     color:#FFFFFF ;
 }
-.hero-button:hover,
-.hero-button:focus{
+.hero.button:hover,
+.hero.button:focus{
     background-color: #404BBF;
 }
 
@@ -95,6 +154,10 @@ body {
 
 .advantages-list-title{
     color: var(--title-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+       
 }
 
 
@@ -106,6 +169,7 @@ body {
 
 .person{
     background-color: #FFFFFF;
+
 }
 
 .team{
@@ -116,15 +180,32 @@ body {
 }
 .name{
     color:var(--title-color);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 
-/* footer */
+/* Portfolio */
 
-.footer {
-    background-color: var(--footer-bcg-color);
-}
-.footer-text{
-    color:#F4F4FD;
+/* Button portfolio */
+
+.button.portfolio {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    
 }
 
+.button.portfolio:hover,
+.button.portfolio:focus {
+    color: #fff;
+    background-color: #404BBF;
+}
+
+.list-title{
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
