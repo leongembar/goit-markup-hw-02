@@ -36,7 +36,7 @@ body {
 /* Button */
 
 .button{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -62,6 +62,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em
     }
     
 
@@ -69,17 +70,18 @@ body {
 /* logo */
 
 .logo{
+    color: #4D5AE5;
+
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.logo-one{
-    color:#4D5AE5 ;
-}
+
 .logo-two {
     color: #2E2F42;
 }
@@ -88,6 +90,10 @@ body {
 }
 
 /* Header */
+
+.address{
+    font-style: normal;
+}
 
 .site-nav .link {
     color: #2E2F42 ;
@@ -129,6 +135,9 @@ body {
 
 /* Hero */
 
+.hero{
+    background-color: #2E2F42;
+}
 .hero-title{
     color: #FFFFFF;
 
@@ -136,6 +145,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em
     }
 
 
@@ -164,9 +174,16 @@ body {
 
 /* work */
 
+.work .section-title{
+    text-transform: capitalize
+}
 
 
 /* team */
+
+.team .section-title{
+    text-transform: capitalize
+}
 
 .person{
     background-color: #FFFFFF;
