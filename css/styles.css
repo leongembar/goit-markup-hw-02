@@ -111,7 +111,9 @@ body {
 }
     
 .nav.link:hover,
-.nav.link:focus {
+.nav.link:focus,
+.address.link:hover,
+.address.link:focus {
     color: #404BBF;
 }
 .nav.link:active{
