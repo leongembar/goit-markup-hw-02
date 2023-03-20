@@ -62,7 +62,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
     }
     
 
@@ -78,9 +78,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
-}
-
+    }
 
 .logo-two {
     color: #2E2F42;
@@ -95,7 +93,7 @@ body {
     font-style: normal;
 }
 
-.site-nav .link {
+.nav.link {
     color: #2E2F42 ;
 
     font-weight: 500;
@@ -103,6 +101,7 @@ body {
     line-height: 1.5;
       
 }
+
 .address .link {
     color: #434455;
 
@@ -110,8 +109,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
-.link:hover,
-.link:focus {
+    
+.nav.link:hover,
+.nav.link:focus {
     color: #404BBF;
 }
 .nav.link:active{
@@ -168,6 +168,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
        
 }
 
@@ -202,6 +203,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 
